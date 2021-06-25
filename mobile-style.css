@@ -1,0 +1,73 @@
+@media only screen and (max-width:768px){
+
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position:initial;
+        width: initial;
+        height: initial;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+    }
+
+    .section-2 .cover{
+        background-position: -45vmin -35vmin;
+    }
+
+    .number{
+        margin-top: -10vmin;
+    }
+
+    .number .rect{
+        width:8rem;
+        height:8rem;
+    }
+
+    .number .rect h1{
+    font-size: 2rem;
+    }
+
+    .section-3{
+        height:inherit;
+        padding:10vmin !important;
+    }
+
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i{
+        font-size: 7vmin;
+    }
+
+    .section-4 .team{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-4 .carousel-inner{
+        width: 21rem;
+    }
+
+    /* .section-4 .carousel-item{
+        padding-left: 0.25rem;
+        padding-right: 3rem;
+    } */
+
+}
+
+@media only screen and (max-width:375px){
+
+    footer .row .col-md-2{
+        margin-top: 5vmin;
+    }
+
+}
